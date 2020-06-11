@@ -59,3 +59,15 @@ public class Central {
 	}
 
 }
+
+/*
+
+1. Pensando em níveis de abstração, a classe Central seria sua interface, e no main() a implementação dessa interface, porém, tipo e valor mínimo estão se confundindo com produto. Por exemplo, seria interessante ter uma classe Produto, depois uma classe Notebook que herdaria de Produto os atributos necessários para validação, entao ficaria mais claro quais atributos são obrigatórios e quais são opcionais. tipo, valorMinimo e comissão pertence a cada produto criado, porém frete e vendidos, pertence a cada venda (e não ao produto em si)
+	Pontos interessantes para revisar:
+		a. Herança e Polimorfismo
+		b. Testes unitários
+
+2. O trabalho com os atributos ficou bem interessante, trabalhar visibilidade de atributos no construtor é muito bacana.
+3. Seria interessante ver o output disso no navegador, logo o output poderia ser um html.
+
+*/
